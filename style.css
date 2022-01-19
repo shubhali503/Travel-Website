@@ -1,0 +1,178 @@
+.navbar{
+    position: fixed !important;
+    background-color: #52b69a;
+    opacity: 0.8;
+    width:100%;
+    z-index: 4;
+    font-size: 18px;
+}
+
+.navbar .nav-item{
+    padding-left: 30px;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand span{
+    font-style: italic;
+}
+
+.carousel-inner{
+    height: 480px;
+}
+.carousel-item, img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item h1{
+    margin: 10px auto 0px;
+    background-color: black;
+    width: 510px;
+    padding: 10px;
+    color: white;
+}
+
+.carousel-item h2{
+    margin: 1px auto;
+    background-color: #ffba08;
+    width: 430px;
+    padding: 10px;
+    color: white;
+}
+#second{
+    width: 70vw;
+    text-align: center;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+}
+#second .container{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#second .card img{
+    width: 120px;
+    height: 90px;
+    margin: 15px auto;
+}
+
+#third{
+    margin: 20px auto 10px;
+    background-color: #52b69a;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 120px;
+}
+#third button{ 
+    font-weight: bold;
+    border-radius: 0px;
+} 
+#fourth{
+    width: 70vw;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+}
+
+#fourth .cont{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.listitem ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fifth{
+    width: 100vw;
+    height: 380px;
+    border: 1px solid white;
+    margin: 20px auto;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?b=1&k=20&m=517188688&s=170667a&w=0&h=AF2jDsSkcse_G3a9BCQA22LDhezmxIUZKx5vRh3aFDI=");
+    background-size: cover;
+    background-position: center;
+}
+
+#fifth h1{
+    margin: 130px auto 10px;
+    background-color: #52b69a;
+    width: 500px;
+    padding: 10px;
+    color: white;
+}
+
+#sixth{
+    width: 75vw;
+    text-align: center;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+}
+
+#sixth .container{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sixth .container .card{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#sixth .card-title{
+    font-weight: bold;
+}
+
+footer section{
+    width: 100vw;
+    height: 390px;
+    border: 1px solid white;
+    margin: 20px auto 0px;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/photos/inthanon-highest-mountain-of-thailand-landmark-nature-travel-places-picture-id1285510496?b=1&k=20&m=1285510496&s=170667a&w=0&h=XpFA4LjgDqq_i2-L68RwKDkpHQAphfGyXBnl6Cg_hgo=");
+    background-size: cover;
+    background-position: center;
+}
+
+#fh1{
+    margin: 130px auto 0px;
+    background-color: black;
+    width: 500px;
+    padding: 10px;
+    color: white;
+}
+
+#fh2{
+    margin: 1px auto;
+    background-color: #ffba08;
+    width: 450px;
+    padding: 10px;
+    color: white;
+}
+
+footer p{
+    margin-top: 90px;
+    color: white;
+}
